@@ -161,3 +161,31 @@ a {
     width: 3rem ;
     margin: auto;   
 }
+#chat-section{
+    background-color:#DDDBD1;
+}
+#messages{
+    list-style-type: none;
+}
+
+#messages > li {
+    display: flex;
+}
+
+article{
+    max-width: 20rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+li[sent=true]{
+    justify-content: end;
+}
+li[sent=true]>article{
+    background-color: #DBF8C6;
+}    
+li[sent=false]>article{
+    background-color: white;
+}   
