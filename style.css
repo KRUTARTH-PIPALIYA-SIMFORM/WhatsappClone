@@ -183,7 +183,7 @@ a {
     display: flex;
 }
 
-article{
+article.message{
     max-width: 20rem;
     margin: 0.5rem;
     font-size: 1rem;
@@ -260,4 +260,11 @@ figcaption{
     display: flex;
     justify-content: space-around;
     border-bottom: 0.75rem #DCDCDC solid;
+}
+#contact-information-section{
+    width: 25vw;
+}
+hr{
+    border-top: 1px solid #DCDCDC;
+    opacity: 0.5;
 }
