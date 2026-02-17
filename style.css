@@ -247,3 +247,17 @@ figcaption{
     margin: 1rem;
     text-align: center;
 }
+
+#media-header{
+    padding: 1rem;
+    color: #38ADA2;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+#images{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.75rem #DCDCDC solid;
+}
