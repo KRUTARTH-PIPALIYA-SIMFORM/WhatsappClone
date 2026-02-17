@@ -17,8 +17,11 @@ body{
 #contact-information-section{
     background-color: burlywood;
 }
-
+aside{
+    height: 100vh;
+}
 header {
+    height: 4rem;
     padding: 0.5rem;
     background-color: #EDEDED;
     border-right: 1px solid #DCDCDC;
@@ -105,11 +108,12 @@ a {
 .message-count{
     text-align: center;
     font-size: 0.6rem;
-    height: 1rem;
-    width: 1rem;
-    padding: 0.1rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    padding: 0.3rem;
     border-radius: 50%;
     background-color: #25D366;
+    color: white;
 }
 .count-icons{
     display: flex;
@@ -126,4 +130,18 @@ a {
 }
 #chat-list{
     overflow: auto;
+}
+.contact-name{
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+#chat-header{
+    justify-content: start;
+    gap: 1rem;
+    align-items: center;
+}
+#chat-header-wrapper{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
 }
