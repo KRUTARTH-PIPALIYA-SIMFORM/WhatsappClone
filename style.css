@@ -189,3 +189,10 @@ li[sent=true]>article{
 li[sent=false]>article{
     background-color: white;
 }   
+.message-time{
+    display: flex;
+    justify-content: end;
+    margin-left: 1rem;
+    font-size: 0.75rem;
+    color:grey;
+}
