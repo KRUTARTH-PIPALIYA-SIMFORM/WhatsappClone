@@ -15,9 +15,14 @@ body{
     background-color: burlywood;
 }
 aside{
+    width: 25vw;
     height: 100vh;
 }
+main{
+    width:50vw;
+}
 header {
+    position: fixed;
     height: 4rem;
     padding: 0.5rem;
     background-color: #EDEDED;
@@ -25,6 +30,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+#chat-list-header{
+    width: 25vw;
 }
 header > img{
     width: 2.6rem;
@@ -133,6 +141,7 @@ a {
     font-size: 1.3rem;
 }
 #chat-header{
+    width: 50vw;
     justify-content: start;
     gap: 1rem;
     align-items: center;
@@ -163,6 +172,10 @@ a {
 }
 #chat-section{
     background-color:#DDDBD1;
+}
+#chat-wrapper{
+    padding-top: 4rem;
+    overflow: scroll;
 }
 #messages{
     list-style-type: none;
