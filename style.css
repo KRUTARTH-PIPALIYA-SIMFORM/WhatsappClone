@@ -9,9 +9,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1.25fr 1fr;
 }
-#contact-list{
-    background-color: aqua;
-}
+
 #chat-section{
     background-color: blanchedalmond;
 }
@@ -54,4 +52,28 @@ ul > li > a{
 }
 a {
     color: grey;
+}
+
+#contact-search-bar{
+    padding: 0.4rem 0.5rem;
+}
+#contact-search-button{
+    border: none;
+    background-color: transparent;
+    margin: 0rem 0.4rem;
+}
+#search-contact{
+    padding: 0.4rem 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 0.7rem;
+}
+#contact-search-input{
+    border:none;
+    background-color: #EDEDED;
+    flex-grow: 1;
+}
+#contact-search-input:focus{
+    outline: none;
 }
