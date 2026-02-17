@@ -40,7 +40,7 @@ ul > li > a{
 }
 
 #contact-list-prompt{
-    padding: 0.2rem 1rem 1rem 1rem;
+    padding: 0.2rem 0.5rem 1rem 0.5rem;
     background-color: #9DE1FE;
 }
 #contact-list-prompt-close{
@@ -196,4 +196,21 @@ li[sent=false]>article{
     gap: 0.15rem;
     font-size: 0.75rem;
     color:grey;
+}
+
+#write-message{
+    padding: 0px 1rem;
+    display: flex;
+    background-color: #EDEDED;
+    align-items: center;
+}
+
+#message-input{
+    padding: 0px 0.5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 0.25rem;
+    flex-grow: 1;
+    font-size: large;
+    margin: 0.5rem 1rem;
 }
