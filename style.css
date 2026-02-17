@@ -11,9 +11,7 @@ body{
     grid-template-columns: 1fr 1.25fr 1fr;
 }
 
-#contact-information-section{
-    background-color: burlywood;
-}
+
 aside{
     width: 25vw;
     height: 100vh;
@@ -226,4 +224,26 @@ li[sent=false]>article{
     flex-grow: 1;
     font-size: large;
     margin: 0.5rem 1rem;
+}
+#contact-info-header{
+    width: 25vw;
+    justify-content: start;
+    gap: 1rem;
+    font-size: large;
+    font-weight: 700;
+}
+
+figure{
+    margin-top: 4rem;
+    border-bottom: 0.75rem #DCDCDC solid;
+}
+
+#contact-info-pfp{
+    border-radius: 50%;
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+figcaption{
+    margin: 1rem;
+    text-align: center;
 }
