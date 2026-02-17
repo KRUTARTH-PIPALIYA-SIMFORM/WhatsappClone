@@ -21,6 +21,7 @@ body{
 header {
     padding: 0.5rem;
     background-color: #EDEDED;
+    border-right: 1px solid #DCDCDC;
     display: flex;
     align-items: center;
     justify-content: space-between;
