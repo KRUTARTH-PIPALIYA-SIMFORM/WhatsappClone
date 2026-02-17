@@ -18,3 +18,23 @@ body{
 #contact-information-section{
     background-color: burlywood;
 }
+
+header {
+    padding: 0.5rem;
+    background-color: #EDEDED;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header > img{
+    width: 2.6rem;
+    height: 2.6rem;
+    border-radius: 50%;
+}
+#contact-list-topbar-menus{
+    display: flex;
+    list-style-type: none;
+}
+ul > li > a{
+    padding: 0px 1rem;
+}
