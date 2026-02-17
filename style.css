@@ -38,3 +38,20 @@ header > img{
 ul > li > a{
     padding: 0px 1rem;
 }
+
+#contact-list-prompt{
+    padding: 0.2rem 1rem 1rem 1rem;
+    background-color: #9DE1FE;
+}
+#contact-list-prompt-close{
+    padding-top: 0.25rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#prompt-message-with-icon{
+    display: flex;
+}
+a {
+    color: grey;
+}
