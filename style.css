@@ -282,3 +282,6 @@ hr{
     bottom: 5rem;
     right: calc(25vw + 0.75rem);
 }
+#about-desc > p{
+    padding: 1rem;
+}
