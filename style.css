@@ -132,6 +132,7 @@ a {
     background-color: #EDEDED;
 }
 #chat-list{
+    height: calc(100vh - 12.1rem);
     overflow: auto;
 }
 .contact-name{
@@ -173,7 +174,8 @@ a {
 }
 #chat-wrapper{
     padding-top: 4rem;
-    overflow: scroll;
+    height: calc(100vh - 4rem);
+    overflow: auto;
 }
 #messages{
     list-style-type: none;
