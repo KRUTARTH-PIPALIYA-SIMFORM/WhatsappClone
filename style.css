@@ -134,7 +134,7 @@ ul > li > a{
     background-color: #EDEDED;
 }
 #chat-list{
-    height: calc(100vh - 12.1rem);
+    height: calc(100vh - 12.4rem);
     overflow: auto;
 }
 .contact-name{
