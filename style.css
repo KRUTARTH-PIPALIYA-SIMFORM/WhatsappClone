@@ -143,7 +143,7 @@ ul > li > a {
     font-size: 1.3rem;
 }
 #chat-header {
-    width: 50vw;
+    
     justify-content: start;
     gap: 1rem;
     align-items: center;
