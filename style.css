@@ -174,7 +174,7 @@ ul > li > a {
 }
 /* Chat Section */
 #chat-section {
-    width: 50vw;
+    
     background-color: #dddbd1;
     position: relative;
 }
@@ -235,7 +235,7 @@ li[sent="false"] > article {
 }
 /* <!-- contact INfo --> */
 #contact-info-header {
-    width: 25vw;
+    
     justify-content: start;
     gap: 1rem;
     font-size: large;
@@ -244,7 +244,7 @@ li[sent="false"] > article {
 
 #about-section {
     overflow-y: auto;
-    width: 25vw;
+    
     height: calc(100vh - 4rem);
 }
 
@@ -279,7 +279,7 @@ figcaption {
     border-bottom: 0.75rem #dcdcdc solid;
 }
 #contact-information-section {
-    width: 25vw;
+   
 }
 hr {
     border-top: 1px solid #dcdcdc;
